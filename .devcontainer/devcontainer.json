@@ -1,0 +1,7 @@
+{
+	"name": "Optimizely SolidJS Starter Kit",
+
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bookworm",
+	
+	"customizations": {}
+}

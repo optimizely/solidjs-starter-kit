@@ -2,6 +2,15 @@
 	"name": "Optimizely SolidJS Starter Kit",
 
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bookworm",
+
+	"postCreateCommand": "npm install",
 	
-	"customizations": {}
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
 }

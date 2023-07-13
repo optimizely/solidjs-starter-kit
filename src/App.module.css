@@ -1,26 +1,52 @@
+:root {
+  --color-green: #3BE081;
+  --color-light-blue: #00CCFF;
+  --color-white: #FFFFFF;
+}
+
 .App {
-  text-align: center;
-}
-
-.logo {
-  animation: logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--color-white);
+  line-height: 1;
 }
 
-.link {
-  color: #b318f0;
+.logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  line-height: 20px;
+}
+
+.header h1 {
+  color: var(--color-green);
+}
+
+.header h2 {
+  color: var(--color-light-blue);
+}
+
+code, a {
+  margin: 0px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text)
+}
+
+img {
+  height: 20px;
+  margin-right: 10px;
+  fill: var(--color-white);
 }
 
 @keyframes logo-spin {

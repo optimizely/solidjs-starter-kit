@@ -1,11 +1,11 @@
 import { createSignal } from "solid-js";
 
-function Section(props) {    
+function Section(props) {
   const [icon, setIcon] = createSignal(null);
 
   import(`../assets/${props.icon}.svg`)
     .then((module) => {
-        console.log(module.default);
+      console.log(module.default);
       setIcon(module.default);
     })
     .catch((error) => {
@@ -17,10 +17,10 @@ function Section(props) {
       <h2>
         {() => icon() && <img src={icon()} alt="icon" />}
         {props.heading}
-        </h2>
+      </h2>
       {props.children}
     </section>
-  )
+  );
 }
 
 export default Section;

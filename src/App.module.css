@@ -1,7 +1,7 @@
 :root {
-  --color-green: #3BE081;
-  --color-light-blue: #00CCFF;
-  --color-white: #FFFFFF;
+  --color-green: #3be081;
+  --color-light-blue: #00ccff;
+  --color-white: #ffffff;
 }
 
 .App {
@@ -34,13 +34,14 @@
   color: var(--color-light-blue);
 }
 
-code, a {
+code,
+a {
   margin: 0px 5px;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-text)
+  color: var(--color-green);
 }
 
 img {

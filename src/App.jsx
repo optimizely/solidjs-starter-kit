@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import styles from "./App.module.css";
 import Section from "./components/Section";
+import Nav from "./components/Nav";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} class={styles.logo} alt="logo" />
         <h1>Welcome</h1>
         <h2>Let's get going with the quick start.</h2>
+        <Nav />
       </header>
       <article>
         <Section heading="Quick Start Documentation" icon="documentation">

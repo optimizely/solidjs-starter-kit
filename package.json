@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@optimizely/react-sdk": "^2.9.2",
+    "@solidjs/router": "^0.8.2",
     "solid-js": "^1.7.6"
   }
 }

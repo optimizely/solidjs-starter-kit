@@ -5,7 +5,6 @@ function Section(props) {
 
   import(`../assets/${props.icon}.svg`)
     .then((module) => {
-      console.log(module.default);
       setIcon(module.default);
     })
     .catch((error) => {

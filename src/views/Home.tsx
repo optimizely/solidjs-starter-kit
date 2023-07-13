@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
-import styles from "./App.module.css";
-import Section from "./components/Section";
-import Nav from "./components/Nav";
+import logo from "../assets/logo.svg";
+import "./Home.css";
+import Section from "../components/Section";
+import Nav from "../components/Nav";
 
-function App() {
+function Home() {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
+    <div class="Home">
+      <header class="header">
+        <img src={logo} class="logo" alt="logo" />
         <h1>Welcome</h1>
         <h2>Let's get going with the quick start.</h2>
         <Nav />
@@ -76,4 +76,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

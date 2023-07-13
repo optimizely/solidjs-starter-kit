@@ -4,7 +4,7 @@
   --color-white: #ffffff;
 }
 
-.App {
+.Home {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -48,13 +48,4 @@ img {
   height: 20px;
   margin-right: 10px;
   fill: var(--color-white);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

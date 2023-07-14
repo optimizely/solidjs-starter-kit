@@ -16,7 +16,7 @@
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
-    "@optimizely/react-sdk": "^2.9.2",
+    "@optimizely/optimizely-sdk": "^4.9.4",
     "@solidjs/router": "^0.8.2",
     "solid-js": "^1.7.6"
   }

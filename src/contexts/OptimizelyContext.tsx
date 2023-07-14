@@ -6,7 +6,7 @@ const OptimizelyContext = createContext();
 
 function OptimizelyContextProvider(props) {
   const client = optimizelySdk.createInstance({
-    sdkKey: "K4UmaV5Pk7cEh2hbcjgwe",
+    sdkKey: "Jm4Qre4K2uNtdPT7TKs4v",
   });
   if (client === null) {
     throw new Error("Optimizely instance is null");

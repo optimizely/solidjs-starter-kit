@@ -1,8 +1,8 @@
 import "./DecisionOutput.css";
 
 function DecisionOutput(props) {
-    console.log(props.result);
-    const result = props.result;
+  console.log(props.result);
+  const result = props.result;
   return (
     <code class="Decision">
       User

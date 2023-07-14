@@ -13,8 +13,6 @@ header h2 {
 }
 
 .logo {
-    height: 20vmin;
-    pointer-events: none;
-  }
-  
-  
+  height: 20vmin;
+  pointer-events: none;
+}

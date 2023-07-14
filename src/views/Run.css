@@ -1,5 +1,5 @@
 .Run {
-    & article h2 {
-        font-weight: normal;
-    }
+  & article h2 {
+    font-weight: normal;
+  }
 }

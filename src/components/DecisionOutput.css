@@ -1,23 +1,22 @@
 .Decision {
-    margin: 0px;
-    font-family: monospace;
-    & output code {
-      font-size: 20px;
-    }
-  
-    & b {
-      font-weight: bold;
-      margin-left: 5px;
-    }
-  
-    .userId {
-      color: #fc7f10;
-    }
-    .variation {
-      color: #861dff;
-    }
-    .sortMethod {
-      color: #00ccff;
-    }
+  margin: 0px;
+  font-family: monospace;
+  & output code {
+    font-size: 20px;
   }
-  
+
+  & b {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .userId {
+    color: #fc7f10;
+  }
+  .variation {
+    color: #861dff;
+  }
+  .sortMethod {
+    color: #00ccff;
+  }
+}

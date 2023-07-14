@@ -1,10 +1,12 @@
 /* @refresh reload */
+import { lazy } from "solid-js";
 import { render } from "solid-js/web";
 import { Router, Route, Routes } from "@solidjs/router";
-import optimizelySdk from "@optimizely/optimizely-sdk";
 import "./index.css";
 import Home from "./views/Home";
-import Run from "./views/Run";
+import { OptimizelyContextProvider } from "./contexts/OptimizelyContext";
+
+const Run = lazy(() => import("./views/Run"));
 
 const root = document.getElementById("root");
 
@@ -14,34 +16,16 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-const optimizelyClient = optimizelySdk.createInstance({
-  sdkKey: "K4UmaV5Pk7cEh2hbcjgwe",
-});
-if (optimizelyClient === null) {
-  throw new Error("Optimizely instance is null");
-}
-optimizelyClient.onReady().then(() => {
-  const isValid = optimizelyClient.isValidInstance()
-  console.info(
-    "optimizelyClient isValidInstance(): ",
-    isValid
-  );
-
-  if (!isValid) {
-    console.warn(">>> Optimizely client invalid.");
-    return;
-  }
-});
-
-
 render(
   () => (
-    <Router>
-      <Routes>
-        <Route path="/" component={Home} />
-        <Route path="/run" component={Run} />
-      </Routes>
-    </Router>
+    <OptimizelyContextProvider>
+      <Router>
+        <Routes>
+          <Route path="/" component={Home} />
+          <Route path="/run" component={Run} />
+        </Routes>
+      </Router>
+    </OptimizelyContextProvider>
   ),
   root!
 );

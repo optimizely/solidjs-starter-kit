@@ -1,6 +1,8 @@
 .Decision {
   margin: 0px;
   font-family: monospace;
+  font-size: large;
+  display: block;
   & output code {
     font-size: 20px;
   }

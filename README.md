@@ -1,34 +1,63 @@
-## Usage
+# Optimizely SolidJS Starter Kit
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+The goal of this repo is to get you to a running [SolidJS](https://www.solidjs.com/) app with Optimizely as fast as possible.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Prerequisites
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+To run the application, you need to have the following installed:
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+- Visual Studio Code (VSCode)
+- Install extension [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) 
+- Docker or Docker Desktop
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with the application, follow these steps:
 
-### `npm run dev` or `npm start`
+1. Open Visual Studio Code and press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) to open the command palette. Type "Dev Containers: Clone Repository in Container Volume" and press Enter. 
+2. Enter the repository address `https://github.com/optimizely/solidjs-starter-kit`.
+3. Once the repository is cloned and opened in the dev container, run the project by opening a terminal in Visual Studio Code (press ```Ctrl + ` ``` (or  ```Cmd + ` ``` on macOS) and execute the following command:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ```shell
+   npm run dev
+   ```
+4. Click the link to the http://localhost:3000/ address to open a browser to the running Vue app.  
+5. Use the "Run" navigation link after reading the Quick Start information on the home page.
 
-The page will reload if you make edits.<br>
+## To Exit
 
-### `npm run build`
+1. Type `q` in the terminal panel where your `npm run dev` was running.
+2. Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) to open the command palette.
+3. Select the "Remote: Close Remote Connection" command, which will close the project and exit the running container.
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+## What To Do From Here
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Take a look at the following Optimizely resources to support experimentation and feature flagging for your Vue project:
 
-## Deployment
+- [Javascript SDK](https://github.com/optimizely/javascript-sdk)
+- [Javascript Quickstart](https://docs.developers.optimizely.com/feature-experimentation/docs/javascript-browser-quickstart)
+- [Javascript SDK Documentation](https://docs.developers.optimizely.com/feature-experimentation/docs/javascript-sdk)
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+### Other Optimizely SDKs
+
+- Agent - https://github.com/optimizely/agent
+
+- Android - https://github.com/optimizely/android-sdk
+
+- C# - https://github.com/optimizely/csharp-sdk
+
+- Flutter - https://github.com/optimizely/optimizely-flutter-sdk
+
+- Go - https://github.com/optimizely/go-sdk
+
+- Java - https://github.com/optimizely/java-sdk
+
+- PHP - https://github.com/optimizely/php-sdk
+
+- Python - https://github.com/optimizely/python-sdk
+
+- React - https://github.com/optimizely/react-sdk
+
+- Ruby - https://github.com/optimizely/ruby-sdk
+
+- Swift - https://github.com/optimizely/swift-sdk

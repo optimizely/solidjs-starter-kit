@@ -1,18 +1,17 @@
-header {
+.Header {
   text-align: center;
-  font-size: calc(10px + 2vmin);
   line-height: 20px;
-}
 
-header h1 {
-  color: var(--color-green);
-}
+  & h1 {
+    color: var(--color-green);
+  }
 
-header h2 {
-  color: var(--color-light-blue);
-}
+  & h2 {
+    color: var(--color-light-blue);
+  }
 
-.logo {
-  height: 20vmin;
-  pointer-events: none;
+  .logo {
+    height: 125px;
+    pointer-events: none;
+  }
 }

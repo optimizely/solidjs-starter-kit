@@ -39,7 +39,7 @@ function Home() {
         <Section heading="Get Started" icon="get-started">
           <p>
             Once you have your Optimizely SDK key, you can add it to the
-            <code>src/App.vue</code>. Then, click the Run nav link 👆 to see the
+            <code>src/App.vue</code>. Then, click the Run nav link 👈 to see the
             example in action.
           </p>
         </Section>

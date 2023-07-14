@@ -1,4 +1,8 @@
 .Home {
+  & article {
+    width: 50%;
+  }
+
   & img.icon {
     height: 20px;
     margin-right: 10px;

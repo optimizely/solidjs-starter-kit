@@ -12,11 +12,11 @@ function Home() {
           <p>
             We'll be following much of the
             <a
-              href="https://docs.developers.optimizely.com/feature-experimentation/docs/react-quickstart"
+              href="https://docs.developers.optimizely.com/feature-experimentation/docs/javascript-browser-quickstart"
               target="_blank"
               rel="noopener"
             >
-              Optimizely React quick start documentation
+              Optimizely Javascript quick start documentation
             </a>
             as a basis for this example app.
           </p>
@@ -38,8 +38,8 @@ function Home() {
         </Section>
         <Section heading="Get Started" icon="get-started">
           <p>
-            Once you have your Optimizely SDK key, you can add it to the
-            <code>src/App.vue</code>. Then, click the Run nav link 👈 to see the
+            If you're using your own Optimizely SDK key, you can edit it to the
+            <code>src/contexts/OptimizelyContext.tsx</code>. Then, click the Run nav link 👈 to see the
             example in action.
           </p>
         </Section>

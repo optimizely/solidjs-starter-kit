@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 function Home() {
   return (
-    <div class="container">
+    <div class="container Home">
       <Header />
       <article>
         <Section heading="Quick Start Documentation" icon="documentation">

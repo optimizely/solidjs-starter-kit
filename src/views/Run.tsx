@@ -10,7 +10,7 @@ function Run() {
   };
 
   return (
-    <div class="container">
+    <div class="container Run">
       <Header />
       <article>
         <h2>Experiment Output</h2>

@@ -1,15 +1,8 @@
-code,
-a {
-  margin: 0px 5px;
-}
+.Home {
 
-a {
-  text-decoration: none;
-  color: var(--color-green);
-}
-
-img.icon {
-  height: 20px;
-  margin-right: 10px;
-  fill: var(--color-white);
+  & img.icon {
+    height: 20px;
+    margin-right: 10px;
+    fill: var(--color-white);
+  }
 }

@@ -1,17 +1,12 @@
 import logo from "../assets/logo.svg";
 import "./Home.css";
 import Section from "../components/Section";
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 
 function Home() {
   return (
-    <div class="Home">
-      <header class="header">
-        <img src={logo} class="logo" alt="logo" />
-        <h1>Welcome</h1>
-        <h2>Let's get going with the quick start.</h2>
-        <Nav />
-      </header>
+    <div class="container">
+      <Header />
       <article>
         <Section heading="Quick Start Documentation" icon="documentation">
           <p>

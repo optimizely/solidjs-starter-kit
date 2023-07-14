@@ -14,7 +14,7 @@ function Section(props) {
   return (
     <section>
       <h2>
-        {() => icon() && <img src={icon()} alt="icon" />}
+        {() => icon() && <img src={icon()} alt="icon" class="icon" />}
         {props.heading}
       </h2>
       {props.children}
